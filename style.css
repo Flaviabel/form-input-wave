@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 5%;
+    background-color: #4682B4;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 4%;
+    width: 160px;
+    background-color: #2A4E6C;
+    border-radius: 8px;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    top: -20px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    background-color: transparent;
+    border-color: white;
+}
+
+label {
+    position: relative;
+    top: -36px;
+}
+
+.btn {
+    border-radius: 5px;
+    border-color: #ADD8E6;
+    border-style: none;
+    background-color: #ADD8E6;
+    width: 200px;
+    height: 35px;
+}
+
+a[href='#'] {
+    color: #ADD8E6;
+    text-decoration: none;
+}
+
+span.cambiar{
+    transform: translateY(-30px);
+}
