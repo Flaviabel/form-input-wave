@@ -1,7 +1,8 @@
-let inputform = document.querySelectorAll('input');
-let text = document.querySelectorAll('span');
-let container = document.querySelector(".container");
+let labels = document.querySelectorAll('.form-control label');
 
-inputform.addEventListener("click", () => {
-    text.classList.add("cambiar")
-});
+labels.forEach(label => {  
+    label.innerHTML = label.innerText  
+      .split('')  
+      .map((letter, idx) => `<span style="transition-delay:${idx * 50}ms">${letter}</span>`)  
+      .join('')  
+  })  
